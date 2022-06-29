@@ -4,19 +4,26 @@
   margin: 0 auto;
   width: 500px;
   opacity: .7;
+  z-index: 1;
 }
 
 .btn-start {
   display: block;
-  margin: -70px auto 0;
-  text-align: center;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
   width: 100px;
   height: 50px;
   font-size: 2rem;
+  z-index: 99;
 }
 
 body {
   background-color: black;
   margin: 0 auto;
   font-size: 10px;
+}
+
+.display-none {
+  display: none !important;
 }
