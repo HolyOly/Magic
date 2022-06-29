@@ -3,3 +3,12 @@ body {
   margin: 0 auto;
   font-size: 10px;
 }
+
+.wrapper {
+  display: block;
+  position: absolute;
+  z-index: 9999;
+  left: 50%;
+  top: 10%;
+  margin-left: -250px;
+}
