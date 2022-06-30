@@ -12,3 +12,21 @@ body {
   top: 10%;
   margin-left: -250px;
 }
+
+.game-container {
+  display: none;
+  position: absolute;
+  width: 600px;
+  z-index: 9999;
+  left: 50%;
+  top: 10%;
+  margin-left: -300px;
+}
+
+.energy {
+  display: none;
+}
+
+.is-visible {
+  display: block;
+}
